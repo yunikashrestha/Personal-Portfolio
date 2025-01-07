@@ -12,6 +12,7 @@ html {
 body {
     background: black;
     color: white;
+    
 
 
 }
@@ -35,7 +36,8 @@ nav {
 }
 
 .logo {
-    width: 150px;
+    width: auto;
+    height:200px;
 }
 
 nav ul li {
@@ -161,10 +163,12 @@ nav ul li a:hover::after {
     color: #8a2be2;
     /* font-family:cursive; */
     font-size: 20px;
+    padding-bottom: 5px;
 }
 
 .l {
     font-size: 20px;
+    padding-bottom: 15px;
     /* font-family: cursive; */
 }
 
@@ -177,16 +181,18 @@ nav ul li a:hover::after {
 }
 
 #service {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     font-size: 40px;
+    padding:100px 10%;
 }
 
 .web {
-    padding-top: 50px;
+    /* padding-top: 50px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    padding-bottom: 160px;
+    /* padding-bottom: 160px; */
+    padding:0 10% 160px 10%;
 
 }
 
@@ -214,9 +220,10 @@ nav ul li a:hover::after {
 
 .work {
 
-    padding: 50px 20px;
+    padding: 50px 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 
 }
 
