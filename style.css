@@ -1,0 +1,319 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:black;
+    color:white;
+    
+
+}
+#header{
+    width: 100%;
+    height:100%;
+
+    
+}
+.container{
+    padding:10px 10% ;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width:150px;
+}
+nav ul li{
+    display:inline;
+    list-style:none;
+    margin:10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none; 
+    font-size: 15px;
+    position:relative;
+
+}
+nav ul li a::after{
+    content:'';
+    width:0px;
+    height:3px;
+    background:blueviolet;
+    bottom:-6px; 
+    position:absolute;
+     left:0;  
+     transition:0.3s;
+   
+}
+
+nav ul li a:hover::after{
+    width:100%
+}
+.text-header{
+    margin-top:8%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom:220px ;
+    padding-top: 150px;
+}
+.text-header h1{
+    margin-top: 20px;
+    font-size:60px;
+   
+}
+.text-header h1 span{
+    color:blueviolet;
+}
+/* ----------About------------ */
+#about{
+    padding:70px 0;
+
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+/* .col1{
+    flex-basis:35% /*width of the 1st columnn will be 35% */
+
+  
+.col1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.col2{
+ 
+   flex-basis: 60%;/*Remaining width */
+}
+.col2 p{
+    padding-top: 20px;
+    font-size:20px;
+}
+.skill{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+    padding-top:20px;
+    color:rgb(137, 92, 250);
+    gap:10px;
+    
+}
+.item{
+    position: relative;
+    cursor: pointer;
+
+}
+.item::after{
+    content:'';
+    width:0px;
+    height:3px;
+    background:blueviolet;
+    position:absolute;
+    bottom:-6px; 
+    left:0;  
+    transition:0.3s;
+}
+.item:hover::after{
+    width:100%;
+    
+}
+.see{
+    padding-top: 50px;
+    font-size: 15px;
+}
+.s{
+    color:#8a2be2;
+    /* font-family:cursive; */
+    font-size: 20px;
+}
+.l{
+    font-size:20px;
+    /* font-family: cursive; */
+}
+.exp{
+    display: none;
+}
+.edu{
+    display: none;
+}
+#service{
+   padding-top: 100px;
+    font-size:40px;
+}
+.web{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:30px;
+    padding-bottom: 160px;
+   
+}
+.s1{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:50px 20px ; 
+    background-color: rgb(32, 30, 30);
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+   
+    
+
+}
+.s1:hover{
+    background-color: blueviolet;
+    /* transform:translateY(-5px) ; */
+    scale:1.1;
+    /* rotate:500deg; */
+    
+    
+}
+.work{
+    
+    padding:50px 20px; 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.s2{
+   position:relative;
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+    transition:all 0.3s ease-in-out;
+     overflow:hidden;/*border ko bahira gayo vane nadekhaune*/
+
+}
+.s2child{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    height:0px;
+    width:300px;
+    background-color: blueviolet;
+    transition:all 0.3s ease-in-out;
+    opacity:0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+
+}
+.icon-nav{
+    border-radius: 50%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width:50px;
+
+
+}
+.s2:hover .s2child{
+    height:300px;
+    
+    
+    /* scale:1.1; */
+}
+.seemore{
+   display:flex;
+   justify-content: center;
+   border:1px solid white;
+   background-color: blueviolet;
+   border-radius: 4px;
+   padding:10px 10px ;
+   margin:0 600px 0 600px;
+  
+
+}
+#contact{
+    display:grid;
+    grid-template-columns: 40% 50%;
+    padding:50px 100px;
+    margin-top: 100px;
+}
+.cnt{
+    display: grid;
+    gap:20px;
+    font-size: 20px;
+    padding:0px 10px;
+}
+.cv{
+    border-radius:0.5rem;
+    background-color: blueviolet;
+    font-size: 20px;
+    color:white;
+    height:70px;
+    width:200px;
+}
+.logo{
+    display:flex;
+    gap:15px;
+
+}
+
+.form{
+    
+    border:20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+   
+    
+    
+}
+.message1{
+    height:50px;
+    width:600px;
+    font-size: 15px;
+    background-color:rgb(39, 36, 36);
+    color:white;
+    border:none;
+    padding-left: 10px;
+    border-radius: 0.5rem;
+
+}
+
+.message2{
+    height:200px;
+    width:600px;
+    font-size: 15px;
+    background-color: rgb(39, 36, 36);
+    color:white;
+    border:none;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 0.5rem;
+    
+    
+}
+input::placeholder{
+    color:rgb(131, 122, 122);
+   cursor:cell;
+}
+.button{
+    width:150px;
+    height:50px;
+    background-color: blueviolet;
+    border-radius: 0.5rem;
+    color:white;
+
+}
+
+
+
+

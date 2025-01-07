@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="container">
+        <nav>
+            <img src="images/YUNIKA.png" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div class="text-header"id="home">
+            <p>Student</p>
+            <h1>Hi!! I am <span>Yunika<br></span>A Student</h1>
+            <div style="font-size: 50px;padding-top: 50px;">Constantly learning and growing as a <br><span style="color:blueviolet">Web Development </span>Student</div>
+        </div>
+    </div>
+    <!-- ---------About------- -->
+    <div id="about">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col1">
+                    <img src="images/photo.jpg" height="500px">
+                </div>
+                <div class="col2">
+                    <h1>About Me</h1>
+                    <p> Hi, I am Yunika, a passionate and curious student exploring the world of design, technology.</p>
+
+
+
+                    <div class="skill">
+                        <div class="item" onclick="display(1)">Skill</div>
+                        <div class="item" onclick="display(2)">Experience</div>
+                        <div class="item" onclick="display(3)">Education</div>
+                    </div>
+                    <div class="see">
+                        <div class="skills">
+                            <div class="s">UI/UX Desigining </div>
+                            <div class="l">I have learned UX designing in Figma.</div>
+                            <div class="s">Web Development</div>
+                            <div class="l">I have learned HTMl,CSS,JavaScript.</div>
+                            <div class="s">Programming Language</div>
+                            <div class="l">I have knowledge in C,C++,Java,Python.</div>
+
+
+                        </div>
+
+                        <div class="exp">
+                            <div class="s">2024-current</div>
+                            <div class="l">Student</div>
+                            <div class="s">2022</div>
+                            <div class="l">Student</div>
+                            <div class="s">2020</div>
+                            <div class="l">Student</div>
+                        </div>
+
+                        <div class="edu">
+                            <div class="s">2079</div>
+                            <div class="l">Joined Bachelors in CSIT</div>
+                            <div class="s">2078</div>
+                            <div class="l">Joined +2</div>
+                            <div class="s">2075 </div>
+                            <div class="l">Completed SEE</div>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+            <!-----------My services----------->
+            <div id="service">My Services</div>
+            <div class="web">
+                <div class="s1">
+                    <div><i class="fa-solid fa-code" style="color: #fcfcfd;font-size:60px;"></i> </div>
+                    <div style="font-size: 30px;padding-top: 10px;">Web Design</div>
+                    <div style="font-size: 15px;">I can design website.</div>
+                </div>
+                <div class="s1">
+                    <div><i class="fa-brands fa-figma" style="color: #eeeff2;font-size:60px;"></i></div>
+                    <div style="font-size: 30px;padding-top: 10px">UI/UX Designing</div>
+                    <div style="font-size: 15px;">I can design UI.</div>
+                </div>
+                <div class="s1">
+                    <div><i class="fa-brands fa-java"style="color:white;font-size:60px"></i></div>
+                    <div style="font-size: 30px;padding-top: 10px">Programming</div>
+                    <div style="font-size: 15px;">I can program in several languages.</div>
+                </div>
+                
+
+            </div>
+            <div class="mywork"id="portfolio">
+                <div style="font-size: 50px;padding-top: 40px;">My Works</div>
+                <div class="work">
+                    <div class="s2">
+                        <div class="s2child"> 
+                            <div style="font-size: 25px;font-weight:bold;">Interior Designing</div>
+                            <div style="width:250px;font-size: 15px;">A comprehensive website for interior designing</div>
+                            <div class="icon-nav"><i class="fa-solid fa-location-arrow" style="color: #330ac7;"></i></div>
+                        </div>
+                        <img src="images/interior.jpg"style="object-fit:cover;height:100%;width:100%">
+                    </div>
+                    <div class="s2">
+                        <div class="s2child"> </div>
+                        <div class="s2child"> 
+                            <div style="font-size: 25px;font-weight:bold;">Quiz Game</div>
+                            <div style="width:250px;font-size: 15px;">A platform for playing quiz game</div>
+                            <div class="icon-nav"><i class="fa-solid fa-location-arrow" style="color: #330ac7;"></i></div>
+                        </div>
+                        <img src="images/quizz.avif"style="object-fit:cover;height:100%;width:100%"></div>
+                    <div class="s2">
+                        <div class="s2child"> </div>
+                        <div class="s2child"> 
+                            <div style="font-size: 25px;font-weight:bold;">E-commerce Site</div>
+                            <div style="width:250px;font-size: 15px;">A comprehensive website for buying goods</div>
+                            <div class="icon-nav"><i class="fa-solid fa-location-arrow" style="color: #330ac7;"></i></div>
+                        </div>
+                        <img src="images/ecommerce.webp"style="object-fit:cover;height:100%;width:100%"></div>
+
+                </div>
+            </div>
+           
+
+        </div>
+        <div class="seemore">
+            <div style="font-size: 20px;">See More</div>
+        </div>
+        <div id="contact">
+            <div class="cnt">
+                <div style="font-size:65px;font-weight:55px;">Contact Me</div>
+                <div ><i class="fa-solid fa-envelope" style="color: #0109f4;"></i> <a href="" style="color:white;text-decoration: none;">&nbsp yunikashrestha4@gmail.com</a></div>
+                <div><i class="fa-thin fa-phone" style="color: #3807e9;"></i>&nbsp 9841269060</div>
+                <div class="logos">
+                    <div class="logo">
+                    <div><i class="fa-brands fa-instagram" style="color: #929296;font-size:35px;"></i></div>
+                    <div><i class="fa-brands fa-facebook" style="color:#929296; font-size:35px;"></i></div>
+                    <div><i class="fa-brands fa-github" style="color: #929296;font-size:35px;"></i></div>
+                </div>
+                </div>
+                <div style="display: flex;">
+                <button class="cv">Download CV</button>
+            </div>
+            </div>
+           <div>
+            <form class="form">
+                <input type="text"placeholder="Your Name"class="message1">
+                <input type="email"placeholder="Your email"class="message1">
+                <textarea placeholder="Your Message" class="message2"></textarea>
+                <button type="submit" class="button">Submit</button>
+            </form>
+            </div>
+        </div>
+
+
+</body>
+<script>
+    function display(x) {
+        if (x == 1) {
+            document.querySelector(".skills").style.display = "block";
+            document.querySelector(".exp").style.display = "none";
+            document.querySelector(".edu").style.display = "none";
+        }
+        else if (x == 2) {
+            document.querySelector(".skills").style.display = "none";
+            document.querySelector(".exp").style.display = "block";
+            document.querySelector(".edu").style.display = "none";
+
+
+        }
+        else {
+            document.querySelector(".skills").style.display = "none";
+            document.querySelector(".exp").style.display = "none";
+            document.querySelector(".edu").style.display = "block";
+
+        }
+
+
+    }
+
+</script>
+
+</html>
